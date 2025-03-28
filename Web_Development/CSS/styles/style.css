@@ -1,2 +1,54 @@
 /*Flex Cheat Sheet: https://yoksel.github.io/flex-cheatsheet/#section-display
 How to think in CSS?: https://piratefsh.github.io/how-to/2016/01/27/how-to-think-in-css.html*/
+
+/* drawing borders for everything so you can see the containers*/
+* {
+    border: 1px solid #bbb;
+}
+
+header {
+    /* fix header to top*/
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+header .title {
+    display: inline-block;
+}
+
+header .links {
+    float: right;
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+header .links li {
+    display: inline-block;
+}
+
+.question {
+    /* use flex display to get child columns side by side */
+    display: flex;
+    width: 500px;
+    /* center container */
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.question-image {
+    flex: 1;
+}
+
+.question-image img {
+    width: 100%;
+}
+
+.question-text {
+    flex: 1;
+    padding-left: 20px;
+}
