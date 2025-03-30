@@ -1,0 +1,25 @@
+/*Flex Cheat Sheet: https://yoksel.github.io/flex-cheatsheet/#section-display
+How to think in CSS?: https://piratefsh.github.io/how-to/2016/01/27/how-to-think-in-css.html*/
+
+body {
+    min-height: 600px;
+    display: flex;
+    border: 3px solid orangered;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(41, 41, 41);
+    color: lightgrey;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
