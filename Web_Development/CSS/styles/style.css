@@ -3,7 +3,7 @@ How to think in CSS?: https://piratefsh.github.io/how-to/2016/01/27/how-to-think
 
 /* drawing borders for everything so you can see the containers*/
 * {
-    border: 1px solid #bbb;
+    border: 1px solid #eeeeee;
 }
 
 header {
