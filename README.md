@@ -1,2 +1,2 @@
 # Udemy
-Coursework and exercises from Udemy and YouTube.
+Coursework and exercises from Udemy and more.
