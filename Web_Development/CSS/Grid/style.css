@@ -33,7 +33,7 @@ body {
         "box-1 box-4 box-5 box-5";
 }
 
-@media(max-width: 800px) {
+@media(max-width: 960px) {
     .grid-container {
         grid-template-areas:
             "box-1 box-1 box-2"
@@ -42,7 +42,7 @@ body {
     }
 }
 
-@media(max-width: 600px) {
+@media(max-width: 720px) {
     .grid-container {
         grid-template-areas:
             "box-1 box-1"

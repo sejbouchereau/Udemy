@@ -2,15 +2,52 @@
 How to think in CSS?: https://piratefsh.github.io/how-to/2016/01/27/how-to-think-in-css.html*/
 
 body {
+    flex-wrap: wrap;
     min-height: 600px;
     min-width: 600px;
+}
+
+.boxes {
     display: flex;
-    border: 3px solid orangered;
+    flex-direction: row;
+    border: 3px solid grey;
     gap: 10px;
+    padding: 10px;
 }
 
 #box-1 {
     flex-grow: 2;
+}
+
+header {
+    background-color: black;
+    color: white;
+    border: 3px solid blueviolet;
+    display: flex;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+#title-position {
+    color: grey;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+#menu-button:hover {
+    color: grey;
 }
 
 .box {
