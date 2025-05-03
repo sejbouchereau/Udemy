@@ -4,7 +4,7 @@ Process of inspecting, cleaning, transforming, and modeling data with the goal o
 
 Courses followed:
 
-- **Complete Data Analyst Bootcamp: From Basics To Advanced** by Krish Naik, Jayant Topnani, KRISHAIKRISHAI Technologies Private Limited
+- **Complete Data Analyst Bootcamp: From Basics To Advanced** by Krish Naik, Jayant Topnani
   - Learn how to efficiently manipulate, analyze, and visualize data using Python and its powerful libraries such as Pandas, NumPy, Matplotlib, and Seaborn.
   - Develop the skills to retrieve, manipulate, and aggregate data using SQL. You'll work with SQL Server to manage complex databases and execute advanced queries.
   - Discover how to perform EDA to uncover insights, identify patterns, and prepare data for further analysis through effective data visualization.
